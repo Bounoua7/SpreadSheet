@@ -1260,49 +1260,10 @@ void SpreadSheet::createActions()
 
 
 ```
-<h5 style="color:#FF8000" >Here is the result:</h5>
-
-
 
 
    <h3 style="color:#088A85;" id="Calcul-id" >go dialog</h3>
 
- <h5 style="color:#FF8000" > main file:</h5>
- 
-```c++
-#include "calculator.h"
-
-#include <QApplication>
-
-int main(int argc, char *argv[])
-{
-    QApplication a(argc, argv);
-    calculator w;
-    w.setWindowTitle("Calculator");
-    w.resize(450,300);
-    w.show();
-    return a.exec();
-}
-
-
-```
- <h5 style="color:#FF8000"> godialog.h file: </h5>
-
-```c++
-
-#ifndef GODIALOG_H
-#define GODIALOG_H
-
-
-class GoDialog
-{
-public:
-    GoDialog();
-};
-
-#endif // GODIALOG_H
-
-```
 
 <h5 style="color:#FF8000"> godialog.cpp :</h5>
 
